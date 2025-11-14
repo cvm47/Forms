@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    border: 1px solid red;
+    flex: 1;
+}
+
+.left-side img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-side {
+    border: 1px solid red;
+    background-color: black;
+    flex: 1;
+}
