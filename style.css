@@ -23,3 +23,16 @@ body {
     background-color: black;
     flex: 1;
 }
+
+.semi-bg {
+    border: 2px solid red;
+    position: relative;
+    top: -500px;
+}
+.semi-bg h1 {
+    font-family: Norse-Bold;
+    font-size: 52px;
+    font-weight: bolder;
+    color: rgb(132, 59, 20);
+    text-align: center;
+}
