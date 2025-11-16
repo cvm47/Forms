@@ -23,7 +23,7 @@ body {
 }
 
 .semi-bg {
-    height: 75px;
+    height:90px;
     background-color: rgba(0, 0, 0, 0.65);
     position: relative;
     top: -575px;
@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .semi-bg h1 {
     font-family: Norse-Bold;
@@ -38,6 +39,11 @@ body {
     font-weight: bolder;
     color: rgb(221, 217, 214);
     text-align: center;
+}
+
+#logo {
+    height: 75px;
+    width: auto;
 }
 
 .img-credit {
