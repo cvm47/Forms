@@ -26,6 +26,7 @@ body {
 
 .semi-bg {
     border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.4);
     position: relative;
     top: -500px;
 }
@@ -33,6 +34,6 @@ body {
     font-family: Norse-Bold;
     font-size: 52px;
     font-weight: bolder;
-    color: rgb(132, 59, 20);
+    color: rgb(221, 217, 214);
     text-align: center;
 }
