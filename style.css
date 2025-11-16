@@ -9,7 +9,6 @@ body {
 }
 
 .left-side {
-    border: 1px solid red;
     flex: 1;
 }
 
@@ -19,16 +18,19 @@ body {
 }
 
 .right-side {
-    border: 1px solid red;
     background-color: black;
-    flex: 1;
+    flex: 2;
 }
 
 .semi-bg {
-    border: 2px solid red;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.65);
     position: relative;
-    top: -500px;
+    top: -575px;
+    /* center text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .semi-bg h1 {
     font-family: Norse-Bold;
