@@ -6,6 +6,9 @@
 body {
     display: flex;
     height: 100vh;
+
+    margin: 0;
+    padding: 0;
 }
 
 .left-side {
@@ -35,7 +38,7 @@ body {
 }
 .semi-bg h1 {
     font-family: Norse-Bold;
-    font-size: 52px;
+    font-size: 3.2rem;
     font-weight: bolder;
     color: rgb(221, 217, 214);
     text-align: center;
@@ -51,7 +54,7 @@ body {
     color: white;
     text-align: center;
     position: relative;
-    top: -110px;
+    top: -130px;
 }
 
 .img-credit a {
